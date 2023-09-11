@@ -5,25 +5,90 @@
 
 # All items you want to remove from the workbench
 # You can set the meta "-1" or not set it all to include all items
-delete:
-  - "id:meta"
-  - "id"
+delete: []
 
 new:
   -
-    # 在工作台的 9 個槽位上進行組織
     shape:
-      - "A"
-      - "A"
-      - "B"
-
-    # 與您在上面輸入的字母相關的所有項目 ^
+      - "A A"
+      - "A A"
     input:
-      A: "133:0"
-      B: "280:0"
-
-    # 玩家製作工藝品時會得到的物品
-    output: "283:0:1"
-
-    # 刪除配方
-    remove-old-crafts: true
+      A: "netherite_ingot"
+    output: "netherite_boots"
+    remove-old-crafts: false
+  -
+    shape:
+      - "AAA"
+      - "A A"
+    input:
+      A: "netherite_ingot"
+    output: "netherite_helmet"
+    remove-old-crafts: false
+  -
+    shape:
+      - "AAA"
+      - "A A"
+      - "A A"
+    input:
+      A: "netherite_ingot"
+    output: "netherite_leggings"
+    remove-old-crafts: false
+  -
+    shape:
+      - "A A"
+      - "AAA"
+      - "AAA"
+    input:
+      A: "netherite_ingot"
+    output: "netherite_chestplate"
+    remove-old-crafts: false
+  -
+    shape:
+      - " BB"
+      - " A"
+      - " A"
+    input:
+      A: "stick"
+      B: "netherite_ingot"
+    output: "netherite_hoe"
+    remove-old-crafts: false
+  -
+    shape:
+      - " B"
+      - " A"
+      - " A"
+    input:
+      A: "stick"
+      B: "netherite_ingot"
+    output: "netherite_shovel"
+    remove-old-crafts: false
+  -
+    shape:
+      - "BB"
+      - "BA"
+      - " A"
+    input:
+      A: "stick"
+      B: "netherite_ingot"
+    output: "netherite_axe"
+    remove-old-crafts: false
+  -
+    shape:
+      - "BBB"
+      - " A"
+      - " A"
+    input:
+      A: "stick"
+      B: "netherite_ingot"
+    output: "netherite_pickaxe"
+    remove-old-crafts: false
+  -
+    shape:
+      - "B"
+      - "B"
+      - "A"
+    input:
+      A: "stick"
+      B: "netherite_ingot"
+    output: "netherite_sword"
+    remove-old-crafts: false
