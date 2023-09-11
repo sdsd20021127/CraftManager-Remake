@@ -1,0 +1,29 @@
+# Plugin Shop
+#
+# https://discord.gg/pocketmine
+# https://maxoooz.mysellix.io/
+
+# All items you want to remove from the workbench
+# You can set the meta "-1" or not set it all to include all items
+delete:
+  - "id:meta"
+  - "id"
+
+new:
+  -
+    # 在工作台的 9 個槽位上進行組織
+    shape:
+      - "A"
+      - "A"
+      - "B"
+
+    # 與您在上面輸入的字母相關的所有項目 ^
+    input:
+      A: "133:0"
+      B: "280:0"
+
+    # 玩家製作工藝品時會得到的物品
+    output: "283:0:1"
+
+    # 刪除配方
+    remove-old-crafts: true
